@@ -12,7 +12,7 @@ Funzione che nel linguaggio C si trova nella libreria <stdlib.h>. Serve per conv
 
 Essa è dicharata in questo modo:
 
-int atoi(const char *str)
+$${\color{white}int atoi(const char *str)}
 
 La replica di questa funzione in questa libreria è dichiarata in questa maniera:
 
