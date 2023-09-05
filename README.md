@@ -12,19 +12,19 @@ Funzione che nel linguaggio C si trova nella libreria <stdlib.h>. Serve per conv
 
 Essa è dicharata in questo modo:
 
-$${\color{white}int \space \color{white}atoi(const \space \color{white}char \space \color{white}*str)}$$
+$${\color{lightblue}int \space \color{lightblue}atoi(const \space \color{lightblue}char \space \color{lightblue}*str)}$$
 
 La replica di questa funzione in questa libreria è dichiarata in questa maniera:
 
-$${\color{white}int \space \color{white}ft \space \color{white}atoi(const \space \color{white}char \space \color{white}*str)}$$
+$${\color{lightblue}int \space \color{lightblue}ft \space \color{lightblue}atoi(const \space \color{lightblue}char \space \color{lightblue}*str)}$$
 
 ### $${\color{yellow}Parametri}$$
 
-Il parametro che viene richiesto di essere passato è "str", una stringa di tipo const, che verra conventita nella nostra funzione.
+Il parametro che viene richiesto di essere passato è $${\color{green}"str"}$$, una stringa di tipo const, che verra conventita nella nostra funzione.
 
 ### $${\color{yellow}Valore \space \color{yellow}di \space \color{yellow}ritorno}$$
 
-La funzione restituisce la variabile convertita in tipo INT, se non c'è alcuna implementazione di una conversion eefficacie la funzione restituisce 0.
+La funzione restituisce la variabile convertita in tipo $${\color{lightgreen}INT}$$, se non c'è alcuna implementazione di una conversion eefficacie la funzione restituisce 0.
 
 ### $${\color{yellow}Analisi \space \color{yellow}funzione}$$
 
