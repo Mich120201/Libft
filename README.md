@@ -1,4 +1,4 @@
-# $${\color{red}Libft}$$
+# $${\color{cyan}Libft}$$
 
 Libft è una libreria contenente le maggiori funzioni utilizzate nel linguaggio C, sono funzioni ricreate a mano in modo che riproduca lo stesso risultato o quasi.
 
