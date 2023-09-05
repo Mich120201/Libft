@@ -16,7 +16,7 @@ int atoi(const char *str)
 
 La replica di questa funzione in questa libreria è dichiarata in questa maniera:
 
-int	ft_atoi(const char *str)
+<code style="color : red">int	ft_atoi(const char *str)</code>
 
 ### Parametri
 
