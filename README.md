@@ -1,4 +1,4 @@
-# $${\color{capri}Libft}$$
+# $${\color{Aquamarine}Libft}$$
 
 Libft è una libreria contenente le maggiori funzioni utilizzate nel linguaggio C, sono funzioni ricreate a mano in modo che riproduca lo stesso risultato o quasi.
 
@@ -35,3 +35,591 @@ Poi ci serviamo di un ciclo "while" per saltare eventuali caratteri che non poss
 Poi con un altro ciclo <code style="color : green">"while"</code> passiamo di carattere in carattere per convertirli poco alla volta con questa operazione: <code style="color : green">"res = (str[i] - '0') + (res * 10)"</code>. Questa operazione fa in modo che il carattere contenuto in <code style="color : green">str[i]</code> che durante il ciclo ci assicuriamo sia tra <code style="color : green">'0'</code> e <code style="color : green">'9'</code> e da esso poi sottraiamo '0' in modo da farci restituire precisamente il valore intero corrispondante, ad esempio se all'interno di <code style="color : green">str[i]</code> è contenuto '5' facendo questa sottrazione verrebero dalla macchina sostituiti con i loro caratteri ascii, quindi l'operazione risulterebbe in questo caso <code style="color : green">53('5')-48('0')</code> che restituisce 5. Poi lo sommianmo a <code style="color : green">res</code> moltiplicato per 10 che serve a spostare le cifre dentro <code style="color : green">res</code> di 1 a sinistra in modo da far spazio per la nuova cifra.
 
 Infine facciamo un semplice controllo su <code style="color : green">res</code> per essere sicuri che non superi il limite massimo o minimo della variabile tipo int, il massimo è <code style="color : green">2147483647</code> mentre il minimo <code style="color : green">-2147483647</code>, in caso uno di questi due numeri venga superato restiuiamo solo questo numero <code style="color : green">2147483647</code> in <code style="color : green">positivo</code> o <code style="color : green">negativo</code> per assicurarci che il programma non vada in errore.
+
+## $${\color{cyan}FtBzero}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtCalloc}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtIsalnum}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtIsalpha}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtIsascii}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtIsdigit}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtIsprint}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtItoa}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstaddBack}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstaddFront}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstclear}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstdelone}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstiter}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstlast}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstmap}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstnew}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtLstsize}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtMemchr}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtMemcmp}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtMemcpy}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtMemmove}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtMemset}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtPutcharFd}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtPutendlFd}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtPutnbrFd}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtPutstrFd}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}Ftsplit}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrchr}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrdup}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStriteri}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrjoin}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrlcat}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrlcpy}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrlen}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrmapi}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrncmp}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrnstr}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrrchr}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtStrtrim}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtSubstr}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtTolower}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## $${\color{cyan}FtToupper}$$
+
+### $${\color{lightblue}Descrizione}$$
+
+### $${\color{lightblue}Dichiarazione}$$
+
+### $${\color{lightblue}Parametri}$$
+
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+-------------------------------------------------------------------------------------------------------------------------------------
