@@ -2,7 +2,7 @@
 
 Libft è una libreria contenente le maggiori funzioni utilizzate nel linguaggio C, sono funzioni ricreate a mano in modo che riproduca lo stesso risultato o quasi.
 
-## $${\color{orange}FtAtoi}$$
+## $${\color{Alizarin}FtAtoi}$$
 
 ### $${\color{yellow}Descrizione}$$
 
