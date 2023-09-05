@@ -36,6 +36,8 @@ Poi con un altro ciclo <code style="color : green">"while"</code> passiamo di ca
 
 Infine facciamo un semplice controllo su <code style="color : green">res</code> per essere sicuri che non superi il limite massimo o minimo della variabile tipo int, il massimo è <code style="color : green">2147483647</code> mentre il minimo <code style="color : green">-2147483647</code>, in caso uno di questi due numeri venga superato restiuiamo solo questo numero <code style="color : green">2147483647</code> in <code style="color : green">positivo</code> o <code style="color : green">negativo</code> per assicurarci che il programma non vada in errore.
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
 ## $${\color{cyan}FtBzero}$$
 
 ### $${\color{lightblue}Descrizione}$$
