@@ -2,7 +2,7 @@
 
 Libft è una libreria contenente le maggiori funzioni utilizzate nel linguaggio C, sono funzioni ricreate a mano in modo che riproduca lo stesso risultato o quasi.
 
-## $${\color{cobalt}FtAtoi}$$
+## $${\color{cyan}FtAtoi}$$
 
 ### $${\color{lightblue}Descrizione}$$
 
@@ -20,7 +20,7 @@ La replica di questa funzione in questa libreria è dichiarata in questa maniera
 
 ### $${\color{lightblue}Parametri}$$
 
-Il parametro che viene richiesto di essere passato è <code style="color : green">"str"</code>, una stringa di tipo const, che verra conventita nella nostra funzione.
+Richiede un argomento, <code style="color : green">str</code>, una stringa di tipo const, che verra conventita nella nostra funzione.
 
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
@@ -42,13 +42,29 @@ Infine facciamo un semplice controllo su <code style="color : green">res</code> 
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <strings.h>. La funzione bzero può essere usata per cancellare la data area di memoria con </code style="color : green">zero byte(\0)</code>.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">void bzero(void *s, size_t n)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">void	ft_bzero(void *s, size_t n)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede due argomenti, l’</code style="color : green">indirizzo iniziale della regione di memoria</code> e il </code style="color : green">numero di byte</code> che devono essere azzerati.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+La funzione ft_bzero non ha nessun valore di ritorno.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+In questa funzione prendiamo due variabili durante la dichiarazione e le passiamo alla funzion </code style="color : green">memset</code>.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -56,11 +72,27 @@ Infine facciamo un semplice controllo su <code style="color : green">res</code> 
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <stdlib.h> e <malloc.h>. Nella nostra funzione dichiariamo una variabile <code style="color : green">void *</code> che utilizziamo per allocare la memoria attraverso la funzione <code style="color : green">malloc</code> a cui passiamo il parametro <code style="color : green">nmemb</code> moltiplicato per <code style="color : green">size</code>.
+
+Dopo aver controllato che l'allocazione sia andata a buon fine utilizziml la funzione <code style="color : green">ft_bzero</code> a cui passiamo <code style="color : green">mem</code> e <code style="color : green">nmemb</code> moltiplicato per <code style="color : green">size</code>.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">void *calloc(size_t number, size_t size)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">void	*ft_calloc(size_t nmemb, size_t size)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede due argomenti, </code style="color : green">number</code> il numero di elementi da allocare e </code style="color : green">size</code> la lunghezza di ogni elemento.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
+
+Calloc restituisce un puntatore allo </code style="color : green">spazio allocato</code>. Lo spazio di archiviazione a cui punta il valore restituito è allineato in modo adeguato per l'</code style="color : green">archiviazione</code> di qualsiasi tipo di oggetto.
 
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
 
