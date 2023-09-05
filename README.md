@@ -2,13 +2,13 @@
 
 Libft è una libreria contenente le maggiori funzioni utilizzate nel linguaggio C, sono funzioni ricreate a mano in modo che riproduca lo stesso risultato o quasi.
 
-## $${\color{Red}Ft atoi}$$
+## $${\color{lightgreen}FtAtoi}$$
 
-### Descrizione
+### $${\color{lightblue}Descrizione}$$
 
 Funzione che nel linguaggio C si trova nella libreria <stdlib.h>. Serve per convertire un argomento di tipo STR in un argomento di tipo INT.
 
-### Dichiarazione
+### $${\color{lightblue}Dichiarazione}$$
 
 Essa è dicharata in questo modo:
 
@@ -18,15 +18,15 @@ La replica di questa funzione in questa libreria è dichiarata in questa maniera
 
 <code style="color : red">int	ft_atoi(const char *str)</code>
 
-### Parametri
+### $${\color{lightblue}Parametri}$$
 
 Il parametro che viene richiesto di essere passato è "str", una stringa di tipo const, che verra conventita nella nostra funzione.
 
-### Valore di ritorno
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
 La funzione restituisce la variabile convertita in tipo INT, se non c'è alcuna implementazione di una conversion eefficacie la funzione restituisce 0.
 
-### Analisi funzione
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
 
 All'inizio della funzione dichiariamo tre variabili: i, s, res. la varibile i serve com indice per mouversi lungo la stringa carattere per carattere, s ci servira per fare i calcoli e la variabile res per salavre il risultato finale che verra poi ritornato. 
 
