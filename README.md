@@ -1,14 +1,14 @@
-# $${\color{cyan}Libft}$$
+# $${\color{Aquamarine}Libft}$$
 
 Libft è una libreria contenente le maggiori funzioni utilizzate nel linguaggio C, sono funzioni ricreate a mano in modo che riproduca lo stesso risultato o quasi.
 
-## $${\color{Aquamarine}FtAtoi}$$
+## $${\color{cyan}FtAtoi}$$
 
-### $${\color{yellow}Descrizione}$$
+### $${\color{lightblue}Descrizione}$$
 
 Funzione che nel linguaggio C si trova nella libreria <stdlib.h>. Serve per convertire un argomento di tipo STR in un argomento di tipo INT.
 
-### $${\color{yellow}Dichiarazione}$$
+### $${\color{lightblue}Dichiarazione}$$
 
 Essa è dicharata in questo modo:
 
@@ -18,15 +18,15 @@ La replica di questa funzione in questa libreria è dichiarata in questa maniera
 
 <code style="color : green">int	ft_atoi(const char *str)</code>
 
-### $${\color{yellow}Parametri}$$
+### $${\color{lightblue}Parametri}$$
 
 Il parametro che viene richiesto di essere passato è <code style="color : green">"str"</code>, una stringa di tipo const, che verra conventita nella nostra funzione.
 
-### $${\color{yellow}Valore \space \color{yellow}di \space \color{yellow}ritorno}$$
+### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
 La funzione restituisce la variabile convertita in tipo <code style="color : green">INT</code>, se non c'è alcuna implementazione di una conversion eefficacie la funzione restituisce 0.
 
-### $${\color{yellow}Analisi \space \color{yellow}funzione}$$
+### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
 
 All'inizio della funzione dichiariamo tre variabili: <code style="color : green">i</code>, <code style="color : green">s</code>, <code style="color : green">res</code>. la varibile <code style="color : green">i</code> serve come indice per mouversi lungo la stringa carattere per carattere, <code style="color : green">s</code> ci servira per fare i calcoli e la variabile <code style="color : green">res</code> per salavre il risultato finale che verra poi ritornato. 
 
