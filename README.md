@@ -12,11 +12,11 @@ Funzione che nel linguaggio C si trova nella libreria <stdlib.h>. Serve per conv
 
 Essa è dicharata in questo modo:
 
-$${\color{white}int atoi(const char *str)}
+$${\color{white}int atoi(const char *str)}$$
 
 La replica di questa funzione in questa libreria è dichiarata in questa maniera:
 
-<code style="color : red">int	ft_atoi(const char *str)</code>
+int	ft_atoi(const char *str)
 
 ### $${\color{yellow}Parametri}$$
 
