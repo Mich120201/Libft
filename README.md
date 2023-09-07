@@ -72,9 +72,7 @@ In questa funzione prendiamo due variabili durante la dichiarazione e le passiam
 
 ### $${\color{lightblue}Descrizione}$$
 
-Funzione che nel linguaggio C si trova nella libreria <stdlib.h> e <malloc.h>. Nella nostra funzione dichiariamo una variabile <code style="color : green">void *</code> che utilizziamo per allocare la memoria attraverso la funzione <code style="color : green">malloc</code> a cui passiamo il parametro <code style="color : green">nmemb</code> moltiplicato per <code style="color : green">size</code>.
-
-Dopo aver controllato che l'allocazione sia andata a buon fine utilizziml la funzione <code style="color : green">ft_bzero</code> a cui passiamo <code style="color : green">mem</code> e <code style="color : green">nmemb</code> moltiplicato per <code style="color : green">size</code>.
+Funzione che nel linguaggio C si trova nella libreria <stdlib.h> e <malloc.h>. Questa funzione alloca meoria in modo dimanico.
 
 ### $${\color{lightblue}Dichiarazione}$$
 
@@ -96,19 +94,39 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
 
+Nella nostra funzione dichiariamo una variabile <code style="color : green">void *</code> che utilizziamo per allocare la memoria attraverso la funzione <code style="color : green">malloc</code> a cui passiamo il parametro <code style="color : green">nmemb</code> moltiplicato per <code style="color : green">size</code>.
+
+Dopo aver controllato che l'allocazione sia andata a buon fine utilizziml la funzione <code style="color : green">ft_bzero</code> a cui passiamo <code style="color : green">mem</code> e <code style="color : green">nmemb</code> moltiplicato per <code style="color : green">size</code>.
+
 -------------------------------------------------------------------------------------------------------------------------------------
 
 ## $${\color{cyan}FtIsalnum}$$
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Questa funzione controlla che l'argomento passato sia una lettera dell'alfabeto e un numero.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int isalnum(int argument)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_isalnum(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Isalnum restituisce </code style="color : green">1</code> se c è un </code style="color : green">alphanumeric character</code> o </code style="color : green">0</code> se non è ne una </code style="color : green">lettera dell'alphabeto ne una cifra</code>.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+Nella nostra funzione prendiamo il parametro e lo passiamo alle funzioni </code style="color : green">ft_isalpha</code> e </code style="color : green">ft_isdigit</code>. Se la chiamata va a buon fine ritorniamo </code style="color : green">1</code>, altrimenti ritorniamo </code style="color : green">0</code>.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -116,13 +134,29 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Questa funzione controlla che l'argomento passato sia una lettera dell'alfabeto.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int isalpha(int argument)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_isalpha(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Isalpha restituisce </code style="color : green">1</code> se l'argomento passato è una </code style="color : green">lettera dell'alfabeto</code> o </code style="color : green">0</code> se non è una </code style="color : green">lettera dell'alphabeto</code>.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+Nella nostra funzione prendiamo il parametro e controlliamo che il numero ascii sia compreso tra </code style="color : green">65(A) e 90(Z)</code> per le lettere maiuscole e tra </code style="color : green">97(a) e 122(z)</code> per le minuscole. Se è compreso in questo range ritorniamo 1, altrimenti ritorniamo 0.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -130,13 +164,29 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Questa funzione determina se un particolare carattere è un carattere ASCII.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int isascii(int argument)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_isascii(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Isascii restituisce </code style="color : green">1</code> se C è un </code style="color : green">ascii character</code> o </code style="color : green">0</code> se non è ne un </code style="color : green">ascii character</code>.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+Nella nostra funzione prendiamo il parametro e controlliamo che il numero ascii sia compreso tra </code style="color : green">0(NULL) e 127(DEL)</code>.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -144,13 +194,29 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Questa funzione controlla che l'argomento passato sia un numero.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int isdigit(int arg)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_isdigit(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Isalpha restituisce </code style="color : green">1</code> se l'argomento passato è una </code style="color : green">lettera dell'alfabeto</code> o </code style="color : green">0</code> se </code style="color : green">non è una lettera dell'alphabeto</code>.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+Nella nostra funzione prendiamo il parametro e controlliamo che il numero ascii sia compreso tra </code style="color : green">48(0) e 57(9)</code>. Se è compreso in questo range ritorniamo 1, altrimenti ritorniamo 0.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -158,13 +224,29 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Questa funzione controlla che l'argomento passato sia un carattere che può essere stampato.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int isprint(int arg)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_isprint(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Isalpha restituisce </code style="color : green">1</code> se l'argomento passato è un </code style="color : green">carattere stampabile</code> o </code style="color : green">0</code> se </code style="color : green">non è un carattere stampabile</code>.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+Nella nostra funzione prendiamo il parametro e controlliamo che il numero ascii sia compreso tra </code style="color : green">32(' ') e 126(~)</code>. Se è compreso in questo range ritorniamo 1, altrimenti ritorniamo 0.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -172,13 +254,29 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <stdlib.h>. Questa funzione converte il numero di input nella stringa C corrispondente utilizzando la base specificata.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">char* itoa(int value, char* buffer, int base)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">char	*ft_itoa(int n)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">n</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Itoa restituisce un puntatore alla stringa con terminazione null risultante, come il buffer dei parametri.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+La nostra funzione prende il parametro passato e lo trasforma da in un </code style="color : green">long</code>, calcola la </code style="color : green">lughezza</code> del parametro passato, e infine </code style="color : green">alloca memoria per una stringa</code> dove salveremo il </code style="color : green">risultato finale</code>.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -634,13 +732,29 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Quesat funzione controlla che il carattere passato sia una lettera maiscuola, in caso sia vero la trasforma in minuscola.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int tolower(int argument)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_tolower(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Tolower ritorna l'argomento passato.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+La nostra funzione prende l'argomento passato e ontrolla che sia un </code style="color : green">carattere maiuscolo</code>, in caso sia vero aggiunge il valore </code style="color : green">32</code> in modo che in </code style="color : green">numero ascii</code> risulti la stessa lettera ma </code style="color : green">minuscola</code>.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -648,12 +762,28 @@ Calloc restituisce un puntatore allo </code style="color : green">spazio allocat
 
 ### $${\color{lightblue}Descrizione}$$
 
+Funzione che nel linguaggio C si trova nella libreria <ctype.h>. Quesat funzione controlla che il carattere passato sia una lettera miniscola, in caso sia vero la trasforma in maiuscola.
+
 ### $${\color{lightblue}Dichiarazione}$$
+
+Essa è dicharata in questo modo:
+
+<code style="color : green">int toupper(int argument)</code>
+
+La replica di questa funzione in questa libreria è dichiarata in questa maniera:
+
+<code style="color : green">int	ft_toupper(int c)</code>
 
 ### $${\color{lightblue}Parametri}$$
 
+Richiede un solo argomento, </code style="color : green">c</code> una variabile int.
+
 ### $${\color{lightblue}Valore \space \color{lightblue}di \space \color{lightblue}ritorno}$$
 
+Toupper ritorna l'argomento passato.
+
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
+
+La nostra funzione prende l'argomento passato e ontrolla che sia un </code style="color : green">carattere minuscolo</code>, in caso sia vero sottrae il valore </code style="color : green">32</code> in modo che in </code style="color : green">numero ascii</code> risulti la stessa lettera ma </code style="color : green">maiuscola</code>.
 
 -------------------------------------------------------------------------------------------------------------------------------------
