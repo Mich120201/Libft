@@ -276,7 +276,7 @@ Itoa restituisce un puntatore alla stringa con terminazione null risultante, com
 
 ### $${\color{lightblue}Analisi \space \color{lightblue}funzione}$$
 
-La nostra funzione prende il parametro passato e lo trasforma da in un </code style="color : green">long</code>, calcola la </code style="color : green">lughezza</code> del parametro passato, e infine </code style="color : green">alloca memoria per una stringa</code> dove salveremo il </code style="color : green">risultato finale</code>.
+La nostra funzione prende il parametro passato e lo trasforma da in un </code style="color : green">long,</code> calcola la </code style="color : green">lughezza</code> del parametro passato, e infine </code style="color : green">alloca memoria per una stringa</code> dove salveremo il </code style="color : green">risultato finale.</code>
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
